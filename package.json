@@ -1,0 +1,42 @@
+{
+  "name": "web-style-guide",
+  "homepage": "https://github.com/getpail/web-style-guide/",
+  "author": {
+    "name": "PAIL Technologies inc."
+  },
+  "description": "Web style guide for PAIL web apps and web pages.",
+  "keywords": [
+    "PAIL",
+    "web style guide"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "css": "npm-run-all css-compile css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:style/",
+    "css-minify": "cleancss --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrapail.min.css style/bootstrapail.css",
+    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrapail.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrapail.bundle.min.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getpail/web-style-guide.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "~5.3.8",
+    "clean-css-cli": "^5.6.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.102.0"
+  },
+  "bugs": {
+    "url": "https://github.com/getpail/web-style-guide/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
