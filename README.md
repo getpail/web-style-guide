@@ -3,6 +3,26 @@
 Web style guide for PAIL web apps and web pages.
 
 
+## Directory structure and files
+
+A PAIL web page or web app built from this guide uses the same layout and
+files as the guide itself:
+
+```
+web-page-or-app/
+├── index.html                         # Edit as required
+├── style/
+│   ├── bootstrapail.min.css           # Minified stylesheet, link in <head>
+│   └── bootstrapail.min.css.map       # Source map
+├── js/
+│   ├── color-modes.js                 # Light/dark/auto theme toggle
+│   ├── bootstrapail.bundle.min.js     # Bootstrap JS bundle
+│   └── bootstrapail.bundle.min.js.map # Source map
+└── images/
+    └── sprites.svg                    # Icon sprite (logos + Bootstrap Icons)
+```
+
+
 ## For AI agents
 
 AI agents working in this repository should read `AGENTS.md` first. Key rules
