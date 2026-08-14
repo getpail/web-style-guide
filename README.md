@@ -3,6 +3,14 @@
 Web style guide for PAIL web apps and web pages.
 
 
+## For AI agents
+
+AI agents working in this repository should read `AGENTS.md` first. Key rules
+it covers: `npm run css` regenerates the committed `style/` files (never
+hand-edit them), `npm run js` re-copies the Bootstrap bundle after a Bootstrap
+bump, and there are no tests — verify visually by opening `index.html`.
+
+
 License
 -------
 
