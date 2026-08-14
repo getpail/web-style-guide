@@ -95,172 +95,195 @@
       </div>
     </nav>
     <!-- Content -->
-    <main id="main" class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
-          <h1 class="mt-4"> PAIL Web Style Guide </h1>
-          <h2 id="colours" class="mt-5">
-            Colours
-          </h2>
-          <div class="table-responsive-lg mb-5">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"> Name </th>
-                  <th scope="col"> Table </th>
-                  <th scope="col"> Button </th>
-                  <th scope="col"> Badge </th>
-                  <th scope="col"> Text </th>
-                  <th scope="col"> Alert </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th> primary </th>
-                  <td class="table-primary"> table-primary </td>
-                  <td>
-                    <button class="btn btn-primary btn-sm"
-                            type="button"> btn-primary </button>
-                    <button class="btn btn-outline-primary btn-sm"
-                            type="button"> btn-outline-primary </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-primary"> bg-primary </span>
-                  </td>
-                  <td class="text-primary"> primary </td>
-                  <td>
-                    <div class="alert alert-primary"
-                         role="alert"> alert-primary </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> secondary </th>
-                  <td class="table-secondary"> table-secondary </td>
-                  <td>
-                    <button class="btn btn-secondary btn-sm"
-                            type="button"> btn-secondary </button>
-                    <button class="btn btn-outline-secondary btn-sm"
-                            type="button"> btn-outline-secondary </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-secondary"> bg-secondary </span>
-                  </td>
-                  <td class="text-secondary"> secondary </td>
-                  <td>
-                    <div class="alert alert-secondary"
-                         role="alert"> alert-secondary </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> success </th>
-                  <td class="table-success"> table-success </td>
-                  <td>
-                    <button class="btn btn-success btn-sm"
-                            type="button"> btn-success </button>
-                    <button class="btn btn-outline-success btn-sm"
-                            type="button"> btn-outline-success </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-success"> bg-success </span>
-                  </td>
-                  <td class="text-success"> success </td>
-                  <td>
-                    <div class="alert alert-success"
-                         role="alert"> alert-success </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> warning </th>
-                  <td class="table-warning"> table-warning </td>
-                  <td>
-                    <button class="btn btn-warning btn-sm"
-                            type="button"> btn-warning </button>
-                    <button class="btn btn-outline-warning btn-sm"
-                            type="button"> btn-outline-warning </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-warning"> bg-warning </span>
-                  </td>
-                  <td class="text-warning"> warning </td>
-                  <td>
-                    <div class="alert alert-warning"
-                         role="alert"> alert-warning </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> danger </th>
-                  <td class="table-danger"> table-danger </td>
-                  <td>
-                    <button class="btn btn-danger btn-sm"
-                            type="button"> btn-danger </button>
-                    <button class="btn btn-outline-danger btn-sm"
-                            type="button"> btn-outline-danger </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-danger"> bg-danger </span>
-                  </td>
-                  <td class="text-danger"> danger </td>
-                  <td>
-                    <div class="alert alert-danger"
-                         role="alert"> alert-danger </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> info </th>
-                  <td class="table-info"> table-info </td>
-                  <td>
-                    <button class="btn btn-info btn-sm"
-                            type="button"> btn-info </button>
-                    <button class="btn btn-outline-info btn-sm"
-                            type="button"> btn-outline-info </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-info"> bg-info </span>
-                  </td>
-                  <td class="text-info"> info </td>
-                  <td>
-                    <div class="alert alert-info"
-                         role="alert"> alert-info </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> dark </th>
-                  <td class="table-dark"> table-dark </td>
-                  <td>
-                    <button class="btn btn-dark btn-sm"
-                            type="button"> btn-dark </button>
-                    <button class="btn btn-outline-dark btn-sm"
-                            type="button"> btn-outline-dark </button>
-                  </td>
-                  <td>
-                    <span class="badge bg-dark"> bg-dark </span>
-                  </td>
-                  <td class="text-dark"> dark </td>
-                  <td>
-                    <div class="alert alert-dark"
-                         role="alert"> alert-dark </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th> light </th>
-                  <td class="table-light"> table-light </td>
-                  <td class="table-dark">
-                    <button class="btn btn-light btn-sm"
-                            type="button"> btn-light </button>
-                    <button class="btn btn-outline-light btn-sm"
-                            type="button"> btn-outline-light </button>
-                  </td>
-                  <td class="table-dark">
-                    <span class="badge bg-light text-dark"> bg-light </span>
-                  </td>
-                  <td class="table-dark text-light"> light </td>
-                  <td class="table-dark">
-                    <div class="alert alert-light"
-                         role="alert"> alert-light </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+    <main id="main">
+      <!-- Hero -->
+      <section class="px-4 py-5 my-5 text-center border border-primary rounded-3 bg-body-tertiary">
+        <svg class="bi align-middle mb-3" width="64" height="64"
+             fill="currentColor" aria-hidden="true">
+          <use xlink:href="images/sprites.svg#pail"/>
+        </svg>
+        <h1 class="display-5 fw-bold text-body-emphasis">
+          PAIL Web Style Guide
+        </h1>
+        <p class="lead mb-4 text-body-secondary">
+          Colours, components and conventions for PAIL web apps and web pages.
+        </p>
+        <div class="d-inline-flex gap-2 justify-content-center">
+          <a class="btn btn-primary btn-lg" href="#colours">
+            Browse the guide
+          </a>
+          <a class="btn btn-outline-secondary btn-lg"
+             href="https://getbootstrap.com/" target="_blank" rel="noopener">
+            Bootstrap docs
+          </a>
+        </div>
+      </section>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <h2 id="colours" class="mt-5">
+              Colours
+            </h2>
+            <div class="table-responsive-lg mb-5">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"> Name </th>
+                    <th scope="col"> Table </th>
+                    <th scope="col"> Button </th>
+                    <th scope="col"> Badge </th>
+                    <th scope="col"> Text </th>
+                    <th scope="col"> Alert </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th> primary </th>
+                    <td class="table-primary"> table-primary </td>
+                    <td>
+                      <button class="btn btn-primary btn-sm"
+                              type="button"> btn-primary </button>
+                      <button class="btn btn-outline-primary btn-sm"
+                              type="button"> btn-outline-primary </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-primary"> bg-primary </span>
+                    </td>
+                    <td class="text-primary"> primary </td>
+                    <td>
+                      <div class="alert alert-primary"
+                           role="alert"> alert-primary </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> secondary </th>
+                    <td class="table-secondary"> table-secondary </td>
+                    <td>
+                      <button class="btn btn-secondary btn-sm"
+                              type="button"> btn-secondary </button>
+                      <button class="btn btn-outline-secondary btn-sm"
+                              type="button"> btn-outline-secondary </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-secondary"> bg-secondary </span>
+                    </td>
+                    <td class="text-secondary"> secondary </td>
+                    <td>
+                      <div class="alert alert-secondary"
+                           role="alert"> alert-secondary </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> success </th>
+                    <td class="table-success"> table-success </td>
+                    <td>
+                      <button class="btn btn-success btn-sm"
+                              type="button"> btn-success </button>
+                      <button class="btn btn-outline-success btn-sm"
+                              type="button"> btn-outline-success </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-success"> bg-success </span>
+                    </td>
+                    <td class="text-success"> success </td>
+                    <td>
+                      <div class="alert alert-success"
+                           role="alert"> alert-success </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> warning </th>
+                    <td class="table-warning"> table-warning </td>
+                    <td>
+                      <button class="btn btn-warning btn-sm"
+                              type="button"> btn-warning </button>
+                      <button class="btn btn-outline-warning btn-sm"
+                              type="button"> btn-outline-warning </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-warning"> bg-warning </span>
+                    </td>
+                    <td class="text-warning"> warning </td>
+                    <td>
+                      <div class="alert alert-warning"
+                           role="alert"> alert-warning </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> danger </th>
+                    <td class="table-danger"> table-danger </td>
+                    <td>
+                      <button class="btn btn-danger btn-sm"
+                              type="button"> btn-danger </button>
+                      <button class="btn btn-outline-danger btn-sm"
+                              type="button"> btn-outline-danger </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-danger"> bg-danger </span>
+                    </td>
+                    <td class="text-danger"> danger </td>
+                    <td>
+                      <div class="alert alert-danger"
+                           role="alert"> alert-danger </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> info </th>
+                    <td class="table-info"> table-info </td>
+                    <td>
+                      <button class="btn btn-info btn-sm"
+                              type="button"> btn-info </button>
+                      <button class="btn btn-outline-info btn-sm"
+                              type="button"> btn-outline-info </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-info"> bg-info </span>
+                    </td>
+                    <td class="text-info"> info </td>
+                    <td>
+                      <div class="alert alert-info"
+                           role="alert"> alert-info </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> dark </th>
+                    <td class="table-dark"> table-dark </td>
+                    <td>
+                      <button class="btn btn-dark btn-sm"
+                              type="button"> btn-dark </button>
+                      <button class="btn btn-outline-dark btn-sm"
+                              type="button"> btn-outline-dark </button>
+                    </td>
+                    <td>
+                      <span class="badge bg-dark"> bg-dark </span>
+                    </td>
+                    <td class="text-dark"> dark </td>
+                    <td>
+                      <div class="alert alert-dark"
+                           role="alert"> alert-dark </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th> light </th>
+                    <td class="table-light"> table-light </td>
+                    <td class="table-dark">
+                      <button class="btn btn-light btn-sm"
+                              type="button"> btn-light </button>
+                      <button class="btn btn-outline-light btn-sm"
+                              type="button"> btn-outline-light </button>
+                    </td>
+                    <td class="table-dark">
+                      <span class="badge bg-light text-dark"> bg-light </span>
+                    </td>
+                    <td class="table-dark text-light"> light </td>
+                    <td class="table-dark">
+                      <div class="alert alert-light"
+                           role="alert"> alert-light </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
