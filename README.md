@@ -32,6 +32,7 @@ PAIL web pages and web apps should observe the following best practices for HTML
 - use lowerCamelCase for ids
 - use the aria-x tags to improve accessibility (see: [Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/))
 - use the <main id="main"> tag to indicate the page specific content between the <nav> and <footer>
+- prefix external links with the box-arrow-up-right icon from sprites.svg
 
 
 ## AI disclosure and tooling
