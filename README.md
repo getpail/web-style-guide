@@ -23,6 +23,15 @@ web-page-or-app/
 ```
 
 
+## AI disclosure and tooling
+
+This project is maintained by human developers assisted by the following Artificial Intelligence models and tools:
+- [Gemma-4](https://deepmind.google/models/gemma/gemma-4/) (running on PAIL)
+- [opencode](https://opencode.ai/)
+
+All AI-generated code and documentation have been thoroughly reviewed, tested, and validated by a human developer.  However, as AI models are not infallible, users are encouraged to audit the codebase before deployment in production environments.
+
+
 ## For AI agents
 
 AI agents working in this repository should read `AGENTS.md` first. Key rules
