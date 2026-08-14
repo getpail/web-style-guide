@@ -25,11 +25,6 @@
         </button>
         <div class="collapse navbar-collapse" id="nav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link">
-                <i id="connectIcon" class="bi-cloud"></i>
-              </a>
-            </li>
             <!-- Colour theme chooser -->
             <li class="nav-item dropdown">
               <button class="btn btn-link nav-link dropdown-toggle"
@@ -37,7 +32,7 @@
                       data-bs-toggle="dropdown" data-bs-display="static"
                       aria-label="Toggle theme (auto)">
                 <svg class="bi align-middle" width="16" height="16"
-                     fill="currentColor">
+                     fill="currentColor" aria-hidden="true">
                   <use xlink:href="images/sprites.svg#circle-half"/>
                 </svg>
               </button>
@@ -47,7 +42,7 @@
                   <button type="button" class="dropdown-item"
                           data-bs-theme-value="light">
                     <svg class="bi align-middle me-1" width="16" height="16"
-                         fill="currentColor">
+                         fill="currentColor" aria-hidden="true">
                       <use xlink:href="images/sprites.svg#sun-fill"/>
                     </svg>
                     Light
@@ -57,7 +52,7 @@
                   <button type="button" class="dropdown-item"
                           data-bs-theme-value="dark">
                     <svg class="bi align-middle me-1" width="16" height="16"
-                         fill="currentColor">
+                         fill="currentColor" aria-hidden="true">
                       <use xlink:href="images/sprites.svg#moon-stars-fill"/>
                     </svg>
                     Dark
@@ -67,7 +62,7 @@
                   <button type="button" class="dropdown-item active"
                           data-bs-theme-value="auto">
                   <svg class="bi align-middle me-1" width="16" height="16"
-                       fill="currentColor">
+                       fill="currentColor" aria-hidden="true">
                     <use xlink:href="images/sprites.svg#circle-half"/>
                   </svg>
                     Auto
@@ -80,7 +75,7 @@
               <a class="nav-link dropdown-toggle" role="button"
                  data-bs-toggle="dropdown" aria-expanded="false">
                 <svg class="bi align-middle" width="16" height="16"
-                     fill="currentColor">
+                     fill="currentColor" aria-hidden="true">
                   <use xlink:href="images/sprites.svg#question-circle-fill"/>
                 </svg>
               </a>
@@ -100,7 +95,7 @@
       </div>
     </nav>
     <!-- Content -->
-    <div class="container-fluid">
+    <main id="main" class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
           <h1 class="mt-4"> PAIL Web Style Guide </h1>
@@ -269,7 +264,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <footer class="footer bg-body-secondary bg-gradient">
       <a href="./"> Web Style Guide </a>
       &nbsp; | &nbsp;

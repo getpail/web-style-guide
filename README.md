@@ -23,6 +23,17 @@ web-page-or-app/
 ```
 
 
+## HTML best practices
+
+PAIL web pages and web apps should observe the following best practices for HTML code:
+- use two spaces for indentation (no tabs, ever)
+- use lowercase for all tags
+- no more than one <h1> per page, observing heading hierarchy (h1, h2, h3 without skipping levels)
+- use lowerCamelCase for ids
+- use the aria-x tags to improve accessibility (see: [Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/))
+- use the <main id="main"> tag to indicate the page specific content between the <nav> and <footer>
+
+
 ## AI disclosure and tooling
 
 This project is maintained by human developers assisted by the following Artificial Intelligence models and tools:
