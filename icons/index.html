@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> PAIL Icons Cheatsheet </title>
+    <link href="../style/bootstrapail.min.css" rel="stylesheet">
+    <script type="module" src="../js/color-modes.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg fixed-top bg-primary"
+         data-bs-theme="light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../">
+          <svg class="bi align-middle" width="24" height="24"
+               fill="currentColor">
+            <use xlink:href="../images/sprites.svg#pail"/>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#nav" aria-controls="nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./"> Icons </a>
+            </li>
+            <!-- Colour theme chooser -->
+            <li class="nav-item dropdown">
+              <button class="btn btn-link nav-link dropdown-toggle"
+                      id="bd-theme" type="button" aria-expanded="false"
+                      data-bs-toggle="dropdown" data-bs-display="static"
+                      aria-label="Toggle theme (auto)">
+                <svg class="bi align-middle" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#circle-half"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow"
+                  aria-labelledby="bd-theme">
+                <li>
+                  <button type="button" class="dropdown-item"
+                          data-bs-theme-value="light">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#sun-fill"/>
+                    </svg>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item"
+                          data-bs-theme-value="dark">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#moon-stars-fill"/>
+                    </svg>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item active"
+                          data-bs-theme-value="auto">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#circle-half"/>
+                    </svg>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </li>
+            <!-- List of open source software used in this web application -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false"
+                 aria-label="Built using">
+                <svg class="bi align-middle" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#question-circle-fill"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end shadow">
+                <li><h6 class="dropdown-header"> Built using: </h6></li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://getbootstrap.com/" rel="noopener">
+                    Bootstrap
+                    <span class="badge text-bg-info ms-1"> MIT </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <main id="main">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <h1 class="mt-5"> PAIL Icons Cheatsheet </h1>
+            <p class="lead text-body-secondary">
+              All SVG icons available from the
+              <code class="font-monospace">images/sprites.svg</code> sprite.
+            </p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#pail"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> pail </p>
+                <p class="text-body-secondary small mb-0"> PAIL </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#circle-half"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> circle-half </p>
+                <p class="text-body-secondary small mb-0"> Bootstrap Icons </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#question-circle-fill"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> question-circle-fill </p>
+                <p class="text-body-secondary small mb-0"> Bootstrap Icons </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#sun-fill"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> sun-fill </p>
+                <p class="text-body-secondary small mb-0"> Bootstrap Icons </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#moon-stars-fill"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> moon-stars-fill </p>
+                <p class="text-body-secondary small mb-0"> Bootstrap Icons </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <svg class="bi align-middle mb-2" width="32" height="32"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+                </svg>
+                <p class="font-monospace text-body-emphasis mb-0"> box-arrow-up-right </p>
+                <p class="text-body-secondary small mb-0"> Bootstrap Icons </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <h2 id="adding" class="mt-5"> Adding an icon to <span class="font-monospace">images/sprites.svg</span> </h2>
+            <ol>
+              <li>
+                Add a
+                <code class="font-monospace">&lt;symbol id="icon-id" viewBox="0 0 16 16"&gt;&lt;/symbol&gt;</code>
+                element to <code class="font-monospace">images/sprites.svg</code>.
+              </li>
+              <li>
+                Within the <code class="font-monospace">&lt;symbol&gt;&lt;/symbol&gt;</code> tags, add the <code class="font-monospace">&lt;path&gt;&lt;/path&gt;</code> and equivalent elements for drawing the SVG.
+              </li>
+              <li>Add the icon to this page's list above.</li>
+            </ol>
+            <h2 id="using" class="mt-5"> Using an icon in HTML </h2>
+            <p> The following code will display a Bootstrap Icon for use inline with text: </p>
+            <pre class="ms-5">&lt;svg class="bi align-middle me-1" width="16" height="16"
+     fill="currentColor" aria-hidden="true"&gt;
+  &lt;use xlink:href="images/sprites.svg#box-arrow-up-right"/&gt;
+&lt;/svg&gt;</pre>
+            <h3> Notes: </h3>
+            <ol>
+              <li>
+                Use <code class="font-monospace">currentColor</code> for strokes
+                and fills so the icon inherits the surrounding text colour.
+              </li>
+              <li>
+                Mark decorative icons with
+                <code class="font-monospace">aria-hidden="true"</code> on the
+                <code class="font-monospace">&lt;svg&gt;</code> element.
+              </li>
+              <li>
+                Include the class <code class="font-monospace">bi</code> for Bootstrap Icons.
+              </li>
+              <li>
+                Include the class <code class="font-monospace">me-1</code> for a small margin to the right when used with inline text.
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer bg-body-secondary bg-gradient">
+      <a href="../"> Web Style Guide </a>
+      &nbsp; | &nbsp;
+      <a href="https://www.getpail.com"> &copy; PAIL Technologies inc. 2026 </a>
+    </footer>
+    <script src="../js/bootstrapail.bundle.min.js"></script>
+  </body>
+</html>

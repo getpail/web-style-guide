@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Static, single-page web style guide for PAIL web apps, built on Bootstrap 5.3.
+Static web style guide for PAIL web apps, built on Bootstrap 5.3.
 No framework, no tests, no CI. Asset references are relative, so the site is
 viewable by opening `index.html` in a browser. Default branch is `master`.
 
@@ -25,9 +25,11 @@ fails: check the exit status, don't trust a stale `style/` file.
 
 ## Architecture
 
-- `index.html` — the entire site. Links `style/bootstrapail.min.css` in
-  `<head>`, loads `js/color-modes.js` as `type="module"`, and
-  `js/bootstrapail.bundle.min.js` at end of `<body>`.
+- `index.html` — the guide's home page. `icons/index.html` — gallery of every
+  icon in `images/sprites.svg`; keep its card list in sync when adding icons.
+  Both pages link `style/bootstrapail.min.css` in `<head>`, load
+  `js/color-modes.js` as `type="module"`, and `js/bootstrapail.bundle.min.js`
+  at end of `<body>`.
 - `scss/bootstrapail.scss` — the only style source. Follows Bootstrap 5.3
   "Option B": `@import` functions first, then override the `$primary`,
   `$secondary`, `$success`, `$info`, `$warning`, `$danger` variables, then
