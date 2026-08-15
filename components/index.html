@@ -103,6 +103,98 @@
     </nav>
     <!-- Content -->
     <main id="main">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <h1 class="mt-5"> PAIL Components Cheatsheet </h1>
+            <p class="lead text-body-secondary">
+              Bootstrap 5 components styled with the PAIL custom colour palette.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <h2 id="accordion" class="mt-5"> Accordion </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/accordion/
+              </a>
+            </p>
+            <div class="accordion mb-5" id="accordion-example">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse-accordion-1"
+                          aria-expanded="true"
+                          aria-controls="collapse-accordion-1">
+                    Accordion Item #1
+                  </button>
+                </h3>
+                <div id="collapse-accordion-1"
+                     class="accordion-collapse collapse show"
+                     data-bs-parent="#accordion-example">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                    It is shown by default until the collapse plugin toggles
+                    the classes that control appearance and show/hide
+                    transitions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse-accordion-2"
+                          aria-expanded="false"
+                          aria-controls="collapse-accordion-2">
+                    Accordion Item #2
+                  </button>
+                </h3>
+                <div id="collapse-accordion-2"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#accordion-example">
+                  <div class="accordion-body">
+                    This item starts collapsed. Expand it to see the custom
+                    primary colour applied to the active header state.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse-accordion-3"
+                          aria-expanded="false"
+                          aria-controls="collapse-accordion-3">
+                    Accordion Item #3
+                  </button>
+                </h3>
+                <div id="collapse-accordion-3"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#accordion-example">
+                  <div class="accordion-body">
+                    The focus ring and expanded header colours come from the
+                    custom <span class="font-monospace">$primary</span>
+                    variable
+                    (<span class="font-monospace text-primary user-select-all">#2bada1</span>).
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer bg-body-secondary bg-gradient">
       <a href="../"> Web Style Guide </a>
