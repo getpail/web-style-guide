@@ -27,9 +27,10 @@ fails: check the exit status, don't trust a stale `style/` file.
 
 - `index.html` — the guide's home page. `icons/index.html` — gallery of every
   icon in `images/sprites.svg`; keep its card list in sync when adding icons.
-  Both pages link `style/bootstrapail.min.css` in `<head>`, load
-  `js/color-modes.js` as `type="module"`, and `js/bootstrapail.bundle.min.js`
-  at end of `<body>`.
+  `components/index.html` — demos of Bootstrap components using the guide's
+  custom colours; add one component section at a time. All three pages link
+  `style/bootstrapail.min.css` in `<head>`, load `js/color-modes.js` as
+  `type="module"`, and `js/bootstrapail.bundle.min.js` at end of `<body>`.
 - `scss/bootstrapail.scss` — the only style source. Follows Bootstrap 5.3
   "Option B": `@import` functions first, then override the `$primary`,
   `$secondary`, `$success`, `$info`, `$warning`, `$danger` variables, then

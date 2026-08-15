@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> PAIL Components Cheatsheet </title>
+    <link href="../style/bootstrapail.min.css" rel="stylesheet">
+    <script type="module" src="../js/color-modes.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg fixed-top bg-primary"
+         data-bs-theme="light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../">
+          <svg class="bi align-middle" width="24" height="24"
+               fill="currentColor">
+            <use xlink:href="../images/sprites.svg#pail"/>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#nav" aria-controls="nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../icons/"> Icons </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./" aria-current="page"> Components </a>
+            </li>
+            <!-- Colour theme chooser -->
+            <li class="nav-item dropdown">
+              <button class="btn btn-link nav-link dropdown-toggle"
+                      id="bd-theme" type="button" aria-expanded="false"
+                      data-bs-toggle="dropdown" data-bs-display="static"
+                      aria-label="Toggle theme (auto)">
+                <svg class="bi align-middle" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#circle-half"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow"
+                  aria-labelledby="bd-theme">
+                <li>
+                  <button type="button" class="dropdown-item"
+                          data-bs-theme-value="light">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#sun-fill"/>
+                    </svg>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item"
+                          data-bs-theme-value="dark">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#moon-stars-fill"/>
+                    </svg>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item active"
+                          data-bs-theme-value="auto">
+                    <svg class="bi align-middle me-1" width="16" height="16"
+                         fill="currentColor" aria-hidden="true">
+                      <use xlink:href="../images/sprites.svg#circle-half"/>
+                    </svg>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </li>
+            <!-- List of open source software used in this web application -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false"
+                 aria-label="Built using">
+                <svg class="bi align-middle" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#question-circle-fill"/>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end shadow">
+                <li><h6 class="dropdown-header"> Built using: </h6></li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://getbootstrap.com/" rel="noopener">
+                    Bootstrap
+                    <span class="badge text-bg-info ms-1"> MIT </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <main id="main">
+    </main>
+    <footer class="footer bg-body-secondary bg-gradient">
+      <a href="../"> Web Style Guide </a>
+      &nbsp; | &nbsp;
+      <a href="https://www.getpail.com"> &copy; PAIL Technologies inc. 2026 </a>
+    </footer>
+    <script src="../js/bootstrapail.bundle.min.js"></script>
+  </body>
+</html>
