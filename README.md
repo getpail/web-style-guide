@@ -15,11 +15,11 @@ web-page-or-app/
 │   ├── bootstrapail.min.css           # Minified stylesheet, link in <head>
 │   └── bootstrapail.min.css.map       # Source map
 ├── js/
-│   ├── color-modes.js                 # Light/dark/auto theme toggle
 │   ├── bootstrapail.bundle.min.js     # Bootstrap JS bundle
-│   └── bootstrapail.bundle.min.js.map # Source map
+│   ├── bootstrapail.bundle.min.js.map # Source map
+│   └── color-modes.js                 # Light/dark/auto theme toggle
 └── images/
-    └── sprites.svg                    # Icon sprite (logos + Bootstrap Icons)
+    └── sprites.svg                    # Icon sprites (Scalable Vector Graphics)
 ```
 
 
