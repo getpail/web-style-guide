@@ -23,6 +23,17 @@ web-page-or-app/
 ```
 
 
+## Icons
+
+The complete set of icons commonly used in PAIL web apps and web pages is bundled in `images/sprites.svg`.  Consult the [PAIL Icons Cheatsheet](https://getpail.github.io/web-style-guide/icons/) as a reference of all current icons.  Each icon is a Scalable Vector Graphic (SVG) which is easily embedded into HTML, either standalone or inline with text.  The sources of the icons are as follows:
+
+| Source                                             | License                |
+|:---------------------------------------------------|:-----------------------|
+| PAIL                                               |                        |
+| [Bootstrap Icons](https://icons.getbootstrap.com/) | [MIT](https://github.com/twbs/icons?tab=MIT-1-ov-file) |
+| [DTPR for AI](https://dtpr.ai/)                    | [Apache 2.0](https://github.com/helpful-places/dtpr?tab=Apache-2.0-1-ov-file) |
+
+
 ## HTML best practices
 
 PAIL web pages and web apps should observe the following best practices for HTML code:
