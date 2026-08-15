@@ -110,10 +110,7 @@
             <p class="lead text-body-secondary">
               Bootstrap 5 components styled with the PAIL custom colour palette.
             </p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+            <!-- Accordion Component -->
             <h2 id="accordion" class="mt-5"> Accordion </h2>
             <p class="text-body-tertiary">
               <svg class="bi align-baseline me-1" width="16" height="16"
@@ -121,7 +118,7 @@
                 <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
               </svg>
               Reference:
-              <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank">
+              <a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank" rel="noopener">
                 <svg class="bi align-baseline" width="16" height="16"
                      fill="currentColor" aria-hidden="true">
                   <use xlink:href="../images/sprites.svg#bootstrap"/>
@@ -192,6 +189,1029 @@
                 </div>
               </div>
             </div>
+            <!-- Button Group Component -->
+            <h2 id="button-group" class="mt-5"> Button group </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/button-group/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/button-group/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-4 text-center">
+                <h3> Basic </h3>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Left</button>
+                  <button type="button" class="btn btn-primary">Middle</button>
+                  <button type="button" class="btn btn-primary">Right</button>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <h3> Checkbox </h3>
+                <div class="btn-group" role="group"
+                     aria-label="Checkbox toggle buttons">
+                  <input type="checkbox" class="btn-check" id="btn-checkbox-1"
+                         autocomplete="off">
+                  <label class="btn btn-outline-secondary"
+                         for="btn-checkbox-1">Checkbox 1</label>
+                  <input type="checkbox" class="btn-check" id="btn-checkbox-2"
+                         autocomplete="off">
+                  <label class="btn btn-outline-secondary"
+                         for="btn-checkbox-2">Checkbox 2</label>
+                  <input type="checkbox" class="btn-check" id="btn-checkbox-3"
+                         autocomplete="off">
+                  <label class="btn btn-outline-secondary"
+                         for="btn-checkbox-3">Checkbox 3</label>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 text-center">
+                <h3> Radio </h3>
+                <div class="btn-group" role="group"
+                     aria-label="Radio toggle buttons">
+                  <input type="radio" class="btn-check" name="btn-radio-group"
+                         id="btn-radio-1" autocomplete="off" checked>
+                  <label class="btn btn-outline-info"
+                         for="btn-radio-1">Radio 1</label>
+                  <input type="radio" class="btn-check" name="btn-radio-group"
+                         id="btn-radio-2" autocomplete="off">
+                  <label class="btn btn-outline-info"
+                         for="btn-radio-2">Radio 2</label>
+                  <input type="radio" class="btn-check" name="btn-radio-group"
+                         id="btn-radio-3" autocomplete="off">
+                  <label class="btn btn-outline-info"
+                         for="btn-radio-3">Radio 3</label>
+                </div>
+              </div>
+            </div>
+            <!-- Card Component -->
+            <h2 id="card" class="mt-5"> Card </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/card/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/card/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-4">
+                <h3> Image cap </h3>
+                <div class="card">
+                  <span class="placeholder card-img-top"
+                        style="height: 180px;" aria-hidden="true"></span>
+                  <div class="card-body">
+                    <h4 class="card-title"> Card title </h4>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary"> Go somewhere </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8">
+                <h3> Horizontal </h3>
+                <div class="card mb-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <span class="placeholder h-100 w-100 rounded-start"
+                            aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h4 class="card-title"> Card title </h4>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary">
+                            Last updated 3 mins ago
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3> Card group </h3>
+            <div class="card-group mb-5">
+              <div class="card">
+                <span class="placeholder card-img-top bg-primary"
+                      style="height: 180px;" aria-hidden="true"></span>
+                <div class="card-body">
+                  <h4 class="card-title"> Primary </h4>
+                  <p class="card-text">
+                    The image cap placeholder uses the
+                    <span class="font-monospace text-primary user-select-all">#2bada1</span>
+                    primary colour.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">These footers</small>
+                </div>
+              </div>
+              <div class="card">
+                <span class="placeholder card-img-top bg-secondary"
+                      style="height: 180px;" aria-hidden="true"></span>
+                <div class="card-body">
+                  <h4 class="card-title"> Secondary </h4>
+                  <p class="card-text">
+                    The image cap placeholder uses the
+                    <span class="font-monospace text-secondary user-select-all">#64748b</span>
+                    secondary colour.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">will all</small>
+                </div>
+              </div>
+              <div class="card">
+                <span class="placeholder card-img-top bg-info"
+                      style="height: 180px;" aria-hidden="true"></span>
+                <div class="card-body">
+                  <h4 class="card-title"> Info </h4>
+                  <p class="card-text">
+                    The image cap placeholder uses the
+                    <span class="font-monospace text-info user-select-all">#38bdf8</span>
+                    info colour.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">line up.</small>
+                </div>
+              </div>
+            </div>
+            <h3> Grid cards </h3>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+              <div class="col">
+                <div class="card">
+                  <span class="placeholder card-img-top"
+                        style="height: 180px;" aria-hidden="true"></span>
+                  <div class="card-body">
+                    <h4 class="card-title"> Card title </h4>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <span class="placeholder card-img-top"
+                        style="height: 180px;" aria-hidden="true"></span>
+                  <div class="card-body">
+                    <h4 class="card-title"> Card title </h4>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <span class="placeholder card-img-top"
+                        style="height: 180px;" aria-hidden="true"></span>
+                  <div class="card-body">
+                    <h4 class="card-title"> Card title </h4>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <span class="placeholder card-img-top"
+                        style="height: 180px;" aria-hidden="true"></span>
+                  <div class="card-body">
+                    <h4 class="card-title"> Card title </h4>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel Component -->
+            <h2 id="carousel" class="mt-5"> Carousel </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/carousel/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/carousel/
+              </a>
+            </p>
+            <div id="carousel-example" class="carousel slide mb-5"
+                 data-bs-ride="carousel" data-bs-interval="5000">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-example"
+                        data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-example"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-example"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <span class="placeholder d-block w-100 bg-primary"
+                        style="height: 400px;" aria-hidden="true"></span>
+                </div>
+                <div class="carousel-item">
+                  <span class="placeholder d-block w-100 bg-secondary"
+                        style="height: 400px;" aria-hidden="true"></span>
+                </div>
+                <div class="carousel-item">
+                  <span class="placeholder d-block w-100 bg-info"
+                        style="height: 400px;" aria-hidden="true"></span>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button"
+                      data-bs-target="#carousel-example" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"
+                      aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button"
+                      data-bs-target="#carousel-example" data-bs-slide="next">
+                <span class="carousel-control-next-icon"
+                      aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Collapse Component -->
+            <h2 id="collapse" class="mt-5"> Collapse </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/collapse/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/collapse/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <h3> Toggle </h3>
+                <p>
+                  <button class="btn btn-primary" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse-basic"
+                          aria-expanded="false"
+                          aria-controls="collapse-basic">
+                    Toggle collapse
+                  </button>
+                </p>
+                <div class="collapse" id="collapse-basic">
+                  <div class="card card-body">
+                    Some placeholder content for the collapse component. This
+                    panel is hidden by default but revealed when the user
+                    activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <h3> Horizontal toggle </h3>
+                <p>
+                  <button class="btn btn-secondary" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse-horizontal"
+                          aria-expanded="false"
+                          aria-controls="collapse-horizontal">
+                    Toggle width collapse
+                  </button>
+                </p>
+                <div style="min-height: 120px;">
+                  <div class="collapse collapse-horizontal"
+                       id="collapse-horizontal">
+                    <div class="card card-body" style="width: 300px;">
+                      This is some placeholder content for a horizontal
+                      collapse. It's hidden by default and shown when
+                      triggered.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dropdowns Component -->
+            <h2 id="dropdowns" class="mt-5"> Dropdowns </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/dropdowns/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/dropdowns/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown Button
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item"
+                           href="#">Another action</a></li>
+                    <li><a class="dropdown-item"
+                           href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-secondary">
+                    Split Dropdown Button
+                  </button>
+                  <button type="button"
+                          class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item"
+                           href="#">Another action</a></li>
+                    <li><a class="dropdown-item"
+                           href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- List Group Component -->
+            <h2 id="list-group" class="mt-5"> List Group </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/list-group/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/list-group/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <strong>List groups</strong> are a flexible way to display
+                    lists.
+                  </li>
+                  <li class="list-group-item active" aria-current="true">
+                    <strong>Active item:</strong> this item is highlighted with
+                    the primary colour.
+                  </li>
+                  <li class="list-group-item">
+                    The remaining items are displayed normally.
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <strong>Flush list groups</strong> have no outer borders.
+                  </li>
+                  <li class="list-group-item">
+                    They also remove the rounded corners.
+                  </li>
+                  <li class="list-group-item">
+                    The list sits flush against the parent container.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <strong>Badges</strong> show a count on the right.
+                    <span class="badge text-bg-success rounded-pill">14</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <strong>Rounded pills</strong> in the primary colour.
+                    <span class="badge text-bg-warning rounded-pill">2</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <strong>Flex utilities</strong> align the items and badges.
+                    <span class="badge text-bg-danger rounded-pill">1</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio"
+                           name="list-group-radio" value=""
+                           id="list-group-radio-1" checked>
+                    <label class="form-check-label" for="list-group-radio-1">
+                      <strong>Radio buttons</strong> select a single option.
+                    </label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio"
+                           name="list-group-radio" value=""
+                           id="list-group-radio-2">
+                    <label class="form-check-label" for="list-group-radio-2">
+                      All options share the same name.
+                    </label>
+                  </li>
+                  <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio"
+                           name="list-group-radio" value=""
+                           id="list-group-radio-3" disabled>
+                    <label class="form-check-label" for="list-group-radio-3">
+                      The last option is <strong>disabled</strong>.
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Modal Component -->
+            <h2 id="modal" class="mt-5"> Modal </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/modal/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/modal/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <button type="button" class="btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#modal-basic">
+                  Modal
+                </button>
+                <div class="modal fade" id="modal-basic" tabindex="-1"
+                     aria-labelledby="modal-basic-label" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title fs-5"
+                            id="modal-basic-label"> Basic modal </h3>
+                        <button type="button" class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          The basic modal shows a dialog with a
+                          <strong>header, body and footer</strong>. It can be
+                          closed with the X button, the Close button, pressing
+                          <strong>Escape</strong>, or clicking
+                          <strong>outside the dialog</strong>.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                        <button type="button"
+                                class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <button type="button" class="btn btn-secondary"
+                        data-bs-toggle="modal" data-bs-target="#modal-static">
+                  Static Backdrop Modal
+                </button>
+                <div class="modal fade" id="modal-static" tabindex="-1"
+                     data-bs-backdrop="static" data-bs-keyboard="false"
+                     aria-labelledby="modal-static-label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title fs-5"
+                            id="modal-static-label"> Static backdrop </h3>
+                        <button type="button" class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          The backdrop is <strong>static</strong>: clicking
+                          outside the dialog does not close it, and
+                          <strong>Escape is disabled</strong>. It can only be
+                          closed with the Close button. The dialog is also
+                          <strong>vertically centered</strong> with the
+                          <span class="font-monospace user-select-all">modal-dialog-centered</span>
+                          class.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                        <button type="button"
+                                class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Navs & Tabs Component -->
+            <h2 id="navs-tabs" class="mt-5"> Navs &amp; Tabs </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/navs-tabs/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/navs-tabs/
+              </a>
+            </p>
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <button class="nav-link active" id="navs-tabs-active-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#navs-tabs-active"
+                        type="button" role="tab"
+                        aria-controls="navs-tabs-active"
+                        aria-selected="true"> Active </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" id="navs-tabs-inactive-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#navs-tabs-inactive"
+                        type="button" role="tab"
+                        aria-controls="navs-tabs-inactive"
+                        aria-selected="false"> Inactive </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link disabled" id="navs-tabs-disabled-tab"
+                        type="button" role="tab"
+                        aria-disabled="true"> Disabled </button>
+              </li>
+            </ul>
+            <div class="tab-content border-start border-end border-bottom
+                        rounded-bottom-2 p-3">
+              <div class="tab-pane fade show active" id="navs-tabs-active"
+                   role="tabpanel" aria-labelledby="navs-tabs-active-tab"
+                   tabindex="0">
+                <p class="mb-0">
+                  The <strong>active tab</strong> is highlighted with
+                  the primary colour, and its pane is shown.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="navs-tabs-inactive"
+                   role="tabpanel" aria-labelledby="navs-tabs-inactive-tab"
+                   tabindex="0">
+                <p class="mb-0">
+                  Clicking an inactive tab switches the visible pane.
+                </p>
+              </div>
+            </div>
+            <!-- Offcanvas Component -->
+            <h2 id="offcanvas" class="mt-5"> Offcanvas </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/offcanvas/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/offcanvas/
+              </a>
+            </p>
+            <p class="mb-5">
+              <button type="button" class="btn btn-primary"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvas-basic"
+                      aria-controls="offcanvas-basic">
+                Basic
+              </button>
+              <button type="button" class="btn btn-secondary"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvas-scrolling"
+                      aria-controls="offcanvas-scrolling">
+                Body Scrolling
+              </button>
+              <button type="button" class="btn btn-info"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvas-scrolling-backdrop"
+                      aria-controls="offcanvas-scrolling-backdrop">
+                Body Scrolling &amp; Backdrop
+              </button>
+              <button type="button" class="btn btn-success"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvas-static"
+                      aria-controls="offcanvas-static">
+                Static Backdrop
+              </button>
+            </p>
+            <div class="offcanvas offcanvas-start" tabindex="-1"
+                 id="offcanvas-basic"
+                 aria-labelledby="offcanvas-basic-label">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title fs-5"
+                    id="offcanvas-basic-label"> Basic offcanvas </h3>
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="mb-0">
+                  The default offcanvas slides in from the left using the
+                  <span class="font-monospace user-select-all">offcanvas-start</span>
+                  class. A <strong>backdrop</strong> covers the page, and
+                  clicking it closes the panel.
+                </p>
+              </div>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1"
+                 data-bs-scroll="true" data-bs-backdrop="false"
+                 id="offcanvas-scrolling"
+                 aria-labelledby="offcanvas-scrolling-label">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title fs-5"
+                    id="offcanvas-scrolling-label"> Body scrolling </h3>
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="mb-0">
+                  This panel slides in from the right with
+                  <span class="font-monospace user-select-all">offcanvas-end</span>.
+                  With <span class="font-monospace user-select-all">data-bs-scroll</span>
+                  the <strong>page body scrolls</strong> behind the panel,
+                  and there is <strong>no backdrop</strong>.
+                </p>
+              </div>
+            </div>
+            <div class="offcanvas offcanvas-top" tabindex="-1"
+                 data-bs-scroll="true" data-bs-backdrop="true"
+                 id="offcanvas-scrolling-backdrop"
+                 aria-labelledby="offcanvas-scrolling-backdrop-label">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title fs-5"
+                    id="offcanvas-scrolling-backdrop-label">
+                  Body scrolling and backdrop
+                </h3>
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="mb-0">
+                  This panel slides in from the top with
+                  <span class="font-monospace user-select-all">offcanvas-top</span>.
+                  The page body scrolls behind it, and the backdrop is
+                  <strong>shown</strong>.
+                </p>
+              </div>
+            </div>
+            <div class="offcanvas offcanvas-bottom" tabindex="-1"
+                 data-bs-backdrop="static"
+                 id="offcanvas-static"
+                 aria-labelledby="offcanvas-static-label">
+              <div class="offcanvas-header">
+                <h3 class="offcanvas-title fs-5"
+                    id="offcanvas-static-label"> Static backdrop </h3>
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="mb-0">
+                  This panel slides in from the bottom with
+                  <span class="font-monospace user-select-all">offcanvas-bottom</span>.
+                  The backdrop is <strong>static</strong>: clicking it
+                  does not close the panel; only the Close button does.
+                </p>
+              </div>
+            </div>
+            <!-- Pagination Component -->
+            <h2 id="pagination" class="mt-5"> Pagination </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/pagination/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/pagination/
+              </a>
+            </p>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination mb-5">
+                <li class="page-item">
+                  <a class="page-link" href="#"
+                     aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#"
+                     aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Placeholders Component -->
+            <h2 id="placeholders" class="mt-5"> Placeholders </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/placeholders/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/placeholders/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-4">
+                <h3> Static </h3>
+                <p>
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <h3> Glow </h3>
+                <p class="placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <h3> Wave </h3>
+                <p class="placeholder-wave">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+              </div>
+            </div>
+            <!-- Progress Component -->
+            <h2 id="progress" class="mt-5"> Progress </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/progress/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/progress/
+              </a>
+            </p>
+            <div class="progress mb-3" role="progressbar"
+                 aria-label="0 percent"
+                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 0%"></div>
+            </div>
+            <div class="progress mb-3" role="progressbar"
+                 aria-label="25 percent with label"
+                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar" style="width: 25%">25%</div>
+            </div>
+            <div class="progress mb-3" role="progressbar"
+                 aria-label="50 percent success"
+                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-success"
+                   style="width: 50%">bg-success</div>
+            </div>
+            <div class="progress mb-3" role="progressbar"
+                 aria-label="75 percent info"
+                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-info progress-bar-striped"
+                   style="width: 75%">progress-bar-striped</div>
+            </div>
+            <div class="progress mb-5" role="progressbar"
+                 aria-label="100 percent secondary"
+                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
+                   style="width: 100%">+ progress-bar-animated</div>
+            </div>
+            <!-- Spinners Component -->
+            <h2 id="spinners" class="mt-5"> Spinners </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/spinners/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/spinners/
+              </a>
+            </p>
+            <div class="row mb-5">
+              <div class="col-sm-12 col-md-6">
+                <h3> Border </h3>
+                <div class="d-flex flex-wrap gap-3">
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-light" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <h3> Grow </h3>
+                <div class="d-flex flex-wrap gap-3">
+                  <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-light" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Toast Component -->
+            <h2 id="toast" class="mt-5"> Toast </h2>
+            <p class="text-body-tertiary">
+              <svg class="bi align-baseline me-1" width="16" height="16"
+                   fill="currentColor" aria-hidden="true">
+                <use xlink:href="../images/sprites.svg#box-arrow-up-right"/>
+              </svg>
+              Reference:
+              <a href="https://getbootstrap.com/docs/5.3/components/toasts/"
+                 target="_blank" rel="noopener">
+                <svg class="bi align-baseline" width="16" height="16"
+                     fill="currentColor" aria-hidden="true">
+                  <use xlink:href="../images/sprites.svg#bootstrap"/>
+                </svg>
+                /docs/5.3/components/toasts/
+              </a>
+            </p>
+            <p class="mb-5">
+              <button type="button" class="btn btn-primary"
+                      id="toast-live-button">
+                Show live toast
+              </button>
+              <small class="text-body-secondary d-block mt-2">
+                Note: this demo requires JavaScript. The inline script at the
+                end of the page wires the button to the toast.
+              </small>
+            </p>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div id="toast-live" class="toast" role="alert"
+                   aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <svg class="bi me-2" width="16" height="16"
+                       fill="currentColor" aria-hidden="true">
+                    <use xlink:href="../images/sprites.svg#pail"/>
+                  </svg>
+                  <strong class="me-auto"> PAIL </strong>
+                  <small> just now </small>
+                  <button type="button" class="btn-close"
+                          data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  This is a live toast. It appears bottom-right when the
+                  button is clicked and auto-dismisses after 5 seconds.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -202,5 +1222,15 @@
       <a href="https://www.getpail.com"> &copy; PAIL Technologies inc. 2026 </a>
     </footer>
     <script src="../js/bootstrapail.bundle.min.js"></script>
+    <script>
+      const toastTrigger = document.getElementById('toast-live-button')
+      const toastLive = document.getElementById('toast-live')
+      if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLive)
+        toastTrigger.addEventListener('click', () => {
+          toastBootstrap.show()
+        })
+      }
+    </script>
   </body>
 </html>
