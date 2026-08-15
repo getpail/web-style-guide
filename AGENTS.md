@@ -28,13 +28,33 @@ fails: check the exit status, don't trust a stale `style/` file.
 - `index.html` — the guide's home page. `icons/index.html` — gallery of every
   icon in `images/sprites.svg`; keep its card list in sync when adding icons.
   `components/index.html` — demos of Bootstrap components using the guide's
-  custom colours; add one component section at a time, following the Accordion
-  section pattern (heading, docs reference link, demo). All three pages link
-  `style/bootstrapail.min.css` in `<head>`, load `js/color-modes.js` as
-  `type="module"`, and `js/bootstrapail.bundle.min.js` at end of `<body>`.
+  custom colours. Sections are added one at a time in alphabetical order
+  (currently Accordion → Toast). Section pattern: `<!-- X Component -->`
+  comment, `<h2 class="mt-5">` with the space-padded Bootstrap name (e.g.
+  ` List Group `), a reference `<p class="text-body-tertiary">`
+  (box-arrow-up-right icon, "Reference:", `<a target="_blank" rel="noopener">`
+  with bootstrap icon + `/docs/5.3/components/<name>/` URL), then the demo.
+  All sections share the single centered column (no per-section row/col
+  wrappers); demo grids use `row mb-5`, and a section's last element carries
+  `mb-5`. Headings: h2 per section, h3 per variant, h4 for card titles, h3
+  with `fs-5` for modal/offcanvas titles — never skip a level. Ids are unique
+  and prefixed per component (`modal-basic`, `toast-live`, ...).
+  All three pages link `style/bootstrapail.min.css` in `<head>`, load
+  `js/color-modes.js` as `type="module"`, and
+  `js/bootstrapail.bundle.min.js` at end of `<body>`. `components/index.html`
+  also has an inline `<script>` after the bundle wiring the live Toast demo;
+  JS-dependent demos carry a "requires JavaScript" note
+  (`<small class="text-body-secondary d-block mt-2">`).
 - Layout — all page content follows the centered reading column
   `col-sm-12 col-md-10 col-lg-8 col-xl-6` inside `container-fluid`; use the
   full page width only when explicitly requested.
+- Formatting — 2-space indent, no tabs, lowercase tags. Keep lines at ~80
+  columns: when a tag would overflow, break before trailing attribute(s) and
+  align the continuation with the first attribute; wrap prose at word
+  boundaries. Accepted >80 exceptions: reference-link `<a>` blocks, long
+  inline colour-swatch spans, and long class-value lines (e.g. the split
+  button and the animated progress bar) — never split a class value across
+  lines.
 - `scss/bootstrapail.scss` — the only style source. Follows Bootstrap 5.3
   "Option B": `@import` functions first, then override the `$primary`,
   `$secondary`, `$success`, `$info`, `$warning`, `$danger` variables, then
