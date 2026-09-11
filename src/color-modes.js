@@ -1,11 +1,12 @@
 /*!
  * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
- * Modified to prevent FOUC (with snippet in HTML) and to observe style guide.
+ * Modified by PAIL Technologies inc. to an ES6 module, to prevent FOUC (with JS
+ * snippet in HTML), and to observe style guide.
  * Licensed under the Creative Commons Attribution 3.0 Unported License.
  */
 
-(() => {
+export function initialiseThemeSwitcher() {
   'use strict'
 
   const getStoredTheme = () => localStorage.getItem('theme');
@@ -65,4 +66,4 @@
       })
     })
   })
-})()
+}

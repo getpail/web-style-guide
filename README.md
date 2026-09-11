@@ -10,16 +10,15 @@ files as the guide itself:
 
 ```
 web-page-or-app/
-├── index.html                         # Edit as required
+├── index.html                             # Edit as required
 ├── style/
-│   ├── bootstrapail.min.css           # Minified stylesheet, link in <head>
-│   └── bootstrapail.min.css.map       # Source map
+│   ├── bootstrapail.min.css               # Minified stylesheet, link in <head>
+│   └── bootstrapail.min.css.map           # Source map
 ├── js/
-│   ├── bootstrapail.bundle.min.js     # Bootstrap JS bundle
-│   ├── bootstrapail.bundle.min.js.map # Source map
-│   └── color-modes.js                 # Light/dark/auto theme toggle
+│   ├── bootstrapail.esm.bundle.min.js     # Bootstrap JS bundle
+│   └── bootstrapail.esm.bundle.min.js.map # Source map
 └── images/
-    └── sprites.svg                    # Icon sprites (Scalable Vector Graphics)
+    └── sprites.svg                        # Icon sprites (SVG)
 ```
 
 
